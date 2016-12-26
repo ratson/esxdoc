@@ -328,6 +328,8 @@ export default class ParamParser {
           case 'ObjectMethod':
             typeMap[prop.key.name] = 'function';
             break;
+          case 'SpreadProperty':
+            return {types: ['*']};
           default:
             typeMap[prop.key.name] = '*';
         }
