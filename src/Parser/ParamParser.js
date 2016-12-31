@@ -376,7 +376,7 @@ export default class ParamParser {
     if (right.type === 'ObjectExpression') {
       const typeMap = {};
       for (const prop of right.properties) {
-        const name = prop.key.name || prop.key.value;
+        const name = typeof prop.key === 'undefined' ? prop.key : (prop.key.name || prop.key.value);
         switch (prop.type) {
           case 'ObjectProperty':
             typeMap[name] = prop.value.value ? typeof prop.value.value : '*';
