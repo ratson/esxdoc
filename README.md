@@ -1,8 +1,6 @@
-<!--![Owner Status](https://img.shields.io/badge/owner-busy-red.svg)-->
-[![Build Status](https://travis-ci.org/esdoc/esdoc.svg?branch=master)](https://travis-ci.org/esdoc/esdoc)
-[![Coverage Status](https://codecov.io/gh/esdoc/esdoc/branch/master/graph/badge.svg)](https://codecov.io/gh/esdoc/esdoc)
-[![Document](https://doc.esdoc.org/github.com/esdoc/esdoc/badge.svg?t=0)](https://doc.esdoc.org/github.com/esdoc/esdoc)
-[![Manual](https://esdoc.org/manual-badge.svg?t=0)](https://doc.esdoc.org/github.com/esdoc/esdoc)
+# This is a fork
+
+I need a fix for [#365](https://github.com/esdoc/esdoc/issues/365) and there is a pending [PR](https://github.com/esdoc/esdoc/pull/364), so I release it for myself / others.
 
 # ESDoc
 
@@ -50,6 +48,3 @@ please visit [esdoc.org](https://esdoc.org) to see more documentation.
 
 # License
 MIT
-
-# Author
-[Ryo Maruyama@h13i32maru](https://twitter.com/h13i32maru)
